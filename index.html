@@ -1,22 +1,76 @@
-<html>
-  <head>
-    <style>
-      body{
-        background: linear-gradient(to bottom, red,blue);
-        color: black;
-        text-align: center;
-        display: grid;
-        place-items: center;
-      }
-    </style>
-  </head>
-  <body>
-     <a href = "Unit2.html">Unit 2</a>
-     <h1>Sanjit's Portfolio</h1> 
-    <h2> My CS portfolio: Swimming, running, and coding  </h2>
-    <img src = "media/splashscreen.png">
-    <h3> I created the above splashscreen in Python. I created the Reduced Inequality and Decent Work and Economic Growth goals.  </h3>
-    <h3> Below is some of my code snippets from the project. </h3>
-    <img src = "media/Screenshot 2025-01-30 12.51.07 PM.png">
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanjit's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #ff6666, #66b3ff);
+      color: #333;
+    }
+    /* Navigation Bar */
+    nav {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #007BFF;
+    }
+    /* Main Content */
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .container img {
+      max-width: 100%;
+      height: auto;
+    }
+    h1, h2, h3 {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="Unit2.html">Unit 2</a></li>
+      <li><a href="Unit3.html">Unit 3</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Sanjit's Portfolio</h1>
+    <h2>My CS portfolio: Swimming, running, and coding</h2>
+    <img src="media/splashscreen.png" alt="Splash Screen">
+    <h3>I created the above splashscreen in Python. I created the Reduced Inequality and Decent Work and Economic Growth goals.</h3>
+    <h3>Below are some of my code snippets from the project.</h3>
+    <img src="media/Screenshot 2025-01-30 12.51.07 PM.png" alt="Code Snippet Screenshot">
+  </div>
+</body>
 </html>
