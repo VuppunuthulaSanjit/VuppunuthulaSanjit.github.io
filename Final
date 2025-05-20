@@ -1,1 +1,91 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final Project - Flappy Bird Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      color: #222;
+    }
+    nav {
+      background: linear-gradient(to right, #ffffff, #f9f9f9);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 0 20px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      display: block;
+      padding: 15px 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: background-color 0.3s, color 0.3s;
+      border-radius: 4px;
+    }
+    nav ul li a:hover {
+      color: #007BFF;
+      background-color: #f2f2f2;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .container img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Unit2.html">Unit 2</a></li>
+      <li><a href="Unit3.html">Unit 3</a></li>
+      <li><a href="Unit4.html">Unit 4</a></li>
+      <li><a href="Unit5.html">Unit 5</a></li>
+      <li><a href="Final.html">Final Project</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Final Project - Flappy Bird Clone</h1>
+    <h2>This is my take on recreating the iconic game Flappy Bird — try to keep the bird flying and dodge the pipes!</h2>
+    <iframe src="https://academy.cs.cmu.edu/sharing/honeydewFish261183/embed"></iframe>
+    <h3>Click or press to flap — how long can you stay alive?</h3>
+    <h3>Here’s a screenshot of the code behind the chaos:</h3>
+    <img src="media/Screenshot-Final-Code.png" alt="Flappy Bird Clone Code Screenshot">
+  </div>
+</body>
+</html>
